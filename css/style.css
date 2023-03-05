@@ -28,6 +28,41 @@ p{
     font-weight: 100;
     color: #606060;
 }
+a{
+    text-decoration: none;
+
+}
+.contact{
+    text-align: center;
+}
+.contact_img{
+    width: 100px;
+}
+.contact_text{
+    width: 300px;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+
+}
+.click{
+    position: relative;
+
+}
+.arrow{
+    position: absolute;
+    left:-20px;
+    top: -90px;
+}
+.click_here{
+    width: 60px;
+    font-size: 12px;
+    padding-top: 0px;
+    text-align: center;
+    left: -7px;
+    position: absolute;
+    top: -70px;
+}
 
 @media (max-width: 991px){
     p{
@@ -36,5 +71,18 @@ p{
     }
     .img_logo{
         width: 80vw
+    }
+    .contact_img{
+        width: 50px;
+    }
+    .contact_text{
+        width: 200px;
+        font-size: 12px;
+    }
+    .arrow{
+        position: absolute;
+        left:-8px;
+        top: -70px;
+        width: 100px;
     }
 }
