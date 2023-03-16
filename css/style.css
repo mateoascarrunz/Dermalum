@@ -16,6 +16,7 @@ html, body {
     background-size: auto;
     display: grid;
 place-items: center;
+position: relative;
 }
 
 .img_logo{
@@ -32,9 +33,14 @@ a{
     text-decoration: none;
 
 }
+.logo{
+    position: absolute;
+    top: 80px;
+}
 .contact{
     text-align: center; 
-    margin-top: 29vh;
+    position: absolute;
+    bottom: 0px;
 }
 .contact_img{
     width: 100px;
