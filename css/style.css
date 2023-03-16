@@ -33,7 +33,8 @@ a{
 
 }
 .contact{
-    text-align: center;
+    text-align: center; 
+    margin-top: 50vh;
 }
 .contact_img{
     width: 100px;
