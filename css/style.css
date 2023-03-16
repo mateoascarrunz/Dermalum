@@ -78,6 +78,9 @@ a{
     .img_logo{
         width: 80vw
     }
+    .contact{
+        bottom: 80px;
+    }
     .contact_img{
         width: 50px;
     }
