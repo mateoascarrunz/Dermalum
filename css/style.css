@@ -66,7 +66,6 @@ a{
 
 @media (max-width: 991px){
     p{
-        padding-top: 100px;
         font-size: 25px;
     }
     .img_logo{
@@ -85,4 +84,39 @@ a{
         top: -70px;
         width: 100px;
     }
+}
+.bttn{
+    display: block;
+    margin: auto;
+    text-align: center;
+  
+}
+.pdf{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.download_bttn {
+    text-align: center;
+	background-color: #008f8d;
+	border-radius:28px;
+	border:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:8px 20px;
+	text-decoration:none;
+}
+.download_bttn:hover {
+	background-color:#c6ffec;
+    color:#008f8d;
+}
+.download_bttn:active {
+	position:relative;
+	top:1px;
+    background-color:#c6ffec;
+    color:#008f8d;
 }
